@@ -5,13 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Tabs, Tab } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
+import Header from './Header';
 
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App col-md-8 mr-auto ml-auto">
+        <Header/>
         <Tabs defaultActiveKey="sobre" id="uncontrolled-tab-example">
           <Tab eventKey="sobre" title="Sobre">
             <ListGroup>
