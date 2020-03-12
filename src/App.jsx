@@ -16,10 +16,10 @@ class App extends Component {
     return (
       <div className="App col-md-8 mr-auto ml-auto">
         <Header/>
-        <Tabs defaultActiveKey="sobre" id="uncontrolled-tab-example">
-          <Tab eventKey="sobre" title="Sobre">
-            <Sobre/>
-          </Tab>
+          <Tabs defaultActiveKey="sobre" id="uncontrolled-tab-example">
+            <Tab eventKey="sobre" title="Sobre">
+              <Sobre/>
+            </Tab>
                 <Tab eventKey="formacao" title="Formação">
                   <Formacao/>
                 </Tab>
@@ -35,10 +35,10 @@ class App extends Component {
                 <Tab eventKey="local" title="Local">
                   <Local/>
                 </Tab>
-        </Tabs>
-            </div>
-            );
-          }
-        }
+            </Tabs>
+      </div>
+    );
+  }
+}
         
 export default App;
