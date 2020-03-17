@@ -16,7 +16,7 @@ class Contato extends Component {
                 <div className="row text-left">
                     <div className="col-md-4 mr-auto ml-auto">
                        
-                            <p className="lead">
+                            <div className="lead">
                                 <ListGroupItem>
                                 <b> Nome:</b> Gustavo Leandro Gonçalves
                                 </ListGroupItem>
@@ -32,7 +32,7 @@ class Contato extends Component {
                                 <ListGroupItem>
                                 <b> E-mail:</b> guto_leandro95@hotmail.com
                                 </ListGroupItem>
-                            </p>
+                            </div>
                         
                     </div>
                 </div>

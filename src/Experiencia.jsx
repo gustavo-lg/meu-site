@@ -16,7 +16,7 @@ class Experiencia extends Component {
                     <div className="row">
                         <div className="col-md-4 ml-auto text-left">
                             <ListGroup>
-                                <p className="lead">
+                                <div className="lead">
                                     <ListGroupItem variant="info">
                                     <b>Empresa:</b> Dígitro Tecnologia S.A
                                     </ListGroupItem>
@@ -33,13 +33,13 @@ class Experiencia extends Component {
                                     adição e detalhamento do máximo de informações referente a ocorrência ou
                                     solicitação.
                                     </ListGroupItem>
-                                </p>
+                                </div>
                             </ListGroup>
                            
                         </div>
                         <div className="col-md-4 mr-auto text-left">
                             <ListGroup>
-                                <p className="lead" >
+                                <div className="lead" >
                                     <ListGroupItem variant="info">
                                     <b> Empresa:</b> Secretaria do Estado da Fazenda
                                     </ListGroupItem>
@@ -55,7 +55,7 @@ class Experiencia extends Component {
                                     preventiva,
                                     limpeza, instalação de softwares e OS.
                                     </ListGroupItem>
-                                </p>
+                                </div>
                             </ListGroup>
                             
                           </div>

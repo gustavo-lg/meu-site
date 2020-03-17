@@ -16,7 +16,7 @@ class Habilidades extends Component {
                 <div className="row text-left">
                     <div className="col-md-4 mr-auto ml-auto">
                         
-                            <p className="lead">
+                            <div className="lead">
                                 
                                 <ListGroupItem>
                                 • Reparo de computadores;
@@ -61,7 +61,7 @@ class Habilidades extends Component {
                                 <ListGroupItem>
                                 • GitLab.
                                 </ListGroupItem>
-                            </p>
+                            </div>
                         
                     </div>
                 </div>

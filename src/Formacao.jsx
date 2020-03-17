@@ -16,7 +16,7 @@ class Formacao extends Component {
                 <div className="row">
                     <div className="col-md-4 mr-auto ml-auto text-left">
                         
-                            <p className="lead">
+                            <div className="lead">
                                 <ListGroupItem>
                                 <b> Nível:</b> Técnologo;
                                 </ListGroupItem>
@@ -36,7 +36,7 @@ class Formacao extends Component {
                                 <ListGroupItem>
                                 <b> Turno:</b> EAD.
                                 </ListGroupItem>
-                            </p>
+                            </div>
                         
                     </div>
                 </div>
