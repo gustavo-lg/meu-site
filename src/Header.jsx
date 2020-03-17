@@ -8,24 +8,26 @@ class Header extends Component {
     render() {
         return(
             
-            <ListGroup horizontal>
-                <ListGroup.Item>
-                    <Image className="img" src="https://avatars3.githubusercontent.com/u/47496523?s=400&u=682bcbedc2f1be033e151227039a6535fe7f390c&v=4" roundedCircle/>
-                        
-                </ListGroup.Item>
+            <ListGroup >
+               
                 <ListGroup.Item>
                 <div className="center">
+                   <Image className="img" src="https://avatars3.githubusercontent.com/u/47496523?s=400&u=682bcbedc2f1be033e151227039a6535fe7f390c&v=4" thumbnail roundedCircle/>
                     <h1>Olá, me chamo Gustavo</h1>
                     <hr/>
                     <h6>Estagiário de Desenvolvimento | Front End | Suporte</h6>
-                
-                <Image className="icon" style={{marginRight: "15px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Facebook_Icon_%28Single_Path_-_Transparent_%22f%22%29.svg/1200px-Facebook_Icon_%28Single_Path_-_Transparent_%22f%22%29.svg.png" roundedCircle/>
-                
-                <Image className="icon" style={{marginRight: "15px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/599px-Instagram_icon.png" roundedCircle/>
-               
-                <Image className="icon" style={{marginRight: "15px"}}  src="https://cdn.icon-icons.com/icons2/1099/PNG/512/1485482199-linkedin_78667.png" roundedCircle />
-
-                <Image className="icon" style={{marginRight: "15px"}} src="https://image.flaticon.com/icons/svg/25/25231.svg"roundedCircle />
+                    <a href="https://www.facebook.com/gustavo.leandrogoncalves" >
+                    <Image className="icon" style={{marginRight: "15px"}} src="https://cdn0.iconfinder.com/data/icons/free-social-media-15/32/facebook_social_media-512.png" />
+                    </a>
+                    <a href="https://www.instagram.com/gu_lg/">
+                    <Image className="icon" style={{marginRight: "15px"}} src="https://cdn0.iconfinder.com/data/icons/free-social-media-15/32/instagram_social_media-512.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/gustavo-leandro-gon%C3%A7alves-37b6bb128/" >
+                    <Image className="icon" style={{marginRight: "15px"}}  src="https://cdn0.iconfinder.com/data/icons/free-social-media-15/32/linkedin_social_media-512.png" />
+                    </a>
+                    <a href="https://github.com/gustavo-lg" >
+                    <Image className="icon" style={{marginRight: "15px"}} src="https://cdn0.iconfinder.com/data/icons/free-social-media-15/32/github_social_media-512.png"/>
+                    </a>
                 </div>
                 </ListGroup.Item>
             </ListGroup>

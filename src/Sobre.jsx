@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Image } from 'react-bootstrap';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
 
 class Sobre extends Component {
     render(){
         return(
+          
             <ListGroup>
               <h1 className="text-center">
                 SOBRE
@@ -16,27 +16,28 @@ class Sobre extends Component {
 
                 <div className="row">
                   
-                  <div className="col-md-4 ml-auto mr-auto text-left">
+                  <div className="col-md-4 ml-auto mr-auto text-left lead">
                   <ListGroupItem>
-                    <p className="lead">
+                    <p>
                       Me chamo Gustavo, atualmente tenho 24 anos, sou estudante, cursando superior de Gestão de
                       Tecnologia
                       da Informação.
                     </p>
-                    <p className="lead">
+                    <p>
                       Sou apaixonado por jogos e informatica, o que acabou evoluindo meu inglês sem eu ao menos
                       perceber.
                       Atualmente descobri uma nova paixão, o Desenvolvimento-WEB, estou com
                       foco em adquirir conhecimento para ingressar na área,
                       especificadamente Front-End.
                     </p>
-
-            
+                    
                     </ListGroupItem>
                   </div>
                 </div>
-                
-              </ListGroup>
+            </ListGroup>
+          
+
+          
         );
     }
 }

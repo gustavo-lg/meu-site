@@ -25,7 +25,7 @@ class Experiencia extends Component {
                                     <b> Cargo:</b> Atendente
                                     </ListGroupItem>
                                     
-                                    <ListGroupItem style={{height: 150}}>
+                                    <ListGroupItem>
                                     <b> Atividades:</b> Abertura de chamado por telefone conforme solicitação do
                                     cliente
                                     visando
@@ -48,7 +48,7 @@ class Experiencia extends Component {
                                     <b> Cargo:</b> Estagiario Suporte
                                     </ListGroupItem>
                                     
-                                    <ListGroupItem style={{height: 150}}>
+                                    <ListGroupItem>
                                     <b> Atividades:</b> Dar suporte para os predios da SEFAZ do Centro de Floripa via
                                     telefone,
                                     helpdesk e presencial, efetuando manutenção em computadores, manutenção
