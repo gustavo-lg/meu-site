@@ -16,7 +16,7 @@ class Sobre extends Component {
 
                 <div className="row">
                   
-                  <div className="col-md-4 ml-auto mr-auto text-left lead">
+                  <div className="col-md-8 ml-auto mr-auto text-left lead">
                   <ListGroupItem>
                     <p>
                       Me chamo Gustavo, atualmente tenho 24 anos, sou estudante, cursando superior de Gestão de
@@ -34,7 +34,9 @@ class Sobre extends Component {
                     </ListGroupItem>
                   </div>
                 </div>
+                <br/>
             </ListGroup>
+
           
 
           

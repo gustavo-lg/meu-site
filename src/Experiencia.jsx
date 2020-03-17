@@ -14,7 +14,7 @@ class Experiencia extends Component {
                 <hr className="col-md-3 ml-auto mr-auto" />
 
                     <div className="row">
-                        <div className="col-md-4 ml-auto text-left">
+                        <div className="col-md-5 ml-auto text-left">
                             <ListGroup>
                                 <div className="lead">
                                     <ListGroupItem variant="info">
@@ -37,7 +37,7 @@ class Experiencia extends Component {
                             </ListGroup>
                            
                         </div>
-                        <div className="col-md-4 mr-auto text-left">
+                        <div className="col-md-5 mr-auto text-left">
                             <ListGroup>
                                 <div className="lead" >
                                     <ListGroupItem variant="info">
@@ -57,7 +57,7 @@ class Experiencia extends Component {
                                     </ListGroupItem>
                                 </div>
                             </ListGroup>
-                            
+                            <br/>
                           </div>
                     </div>
                 </div>

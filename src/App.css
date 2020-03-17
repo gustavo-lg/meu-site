@@ -7,3 +7,54 @@ h1 {
   margin-top: 30px;
 }
 
+.accordion {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.1);
+
+  margin: 20px 0;
+}
+
+.accordion-tab {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
+  color: #61dafb;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.1);
+
+  transition: color 0.16s ease-in-out, background-color 0.16s ease-in-out,
+    border-color 0.16s ease-in-out;
+}
+
+.accordion-tab:focus,
+.accordion-tab:focus-visible {
+  box-shadow: 0 0 0 4px rgba(39, 119, 150, 0.5);
+}
+
+.accordion-tab:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+.accordion-tab.active {
+  background-color: #083f7e;
+  border-color: #274a96;
+  color: white;
+  cursor: default;
+}
+
+.accordion-panel {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.accordion-panel > p {
+  padding: 24px 32px;
+}

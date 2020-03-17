@@ -16,7 +16,7 @@ class Local extends Component {
                 <div className="row ">
                     <div className="col-md-12 mr-auto ml-auto">
                         <br/>
-                        <div className="col-md-4 mr-auto ml-auto">
+                        <div className="col-md-3 mr-auto ml-auto">
                             <ListGroupItem>
                                 <p className="lead">
                                     Brasil - SC / São José
@@ -25,7 +25,9 @@ class Local extends Component {
                         </div>
                     </div>
                 </div>
+                <br/>
             </ListGroup>
+            
         );
     }
 }

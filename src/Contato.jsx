@@ -36,6 +36,7 @@ class Contato extends Component {
                         
                     </div>
                 </div>
+                <br/>
             </ListGroup>
         );
     }

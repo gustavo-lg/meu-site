@@ -14,7 +14,7 @@ class Formacao extends Component {
                 <hr className="col-md-3 ml-auto mr-auto" />
 
                 <div className="row">
-                    <div className="col-md-4 mr-auto ml-auto text-left">
+                    <div className="col-md-5 mr-auto ml-auto text-left">
                         
                             <div className="lead">
                                 <ListGroupItem>
@@ -40,6 +40,7 @@ class Formacao extends Component {
                         
                     </div>
                 </div>
+                <br/>
             </ListGroup>
         );
     }

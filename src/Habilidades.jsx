@@ -65,6 +65,7 @@ class Habilidades extends Component {
                         
                     </div>
                 </div>
+                <br/>
             </ListGroup>
         );
     }
